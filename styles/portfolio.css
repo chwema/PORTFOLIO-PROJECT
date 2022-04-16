@@ -170,71 +170,9 @@ nav li {
   display: flex;
   max-width: 600px;
   height: 320px;
-  margin: 0 auto;
+  margin: 5px 30px;
   margin-top: 6em;
   margin-bottom: 3em;
-}
-.card img {
-  max-width: 375px;
-  top: -120;
-  right: -300px;
-  position: relative;
-  width: 300px;
-}
-
-.card > div:first-of-type {
-  flex: 2;
-  padding: 3em;
-  min-width: 300px;
-}
-
-.card > div:last-of-type {
-  flex: 1;
-}
-.card > div:first-of-type {
-  flex: 2;
-  padding: 3em;
-  min-width: 300px;
-}
-
-.card > div:last-of-type {
-  flex: 1;
-}
-
-.card img {
-  max-width: 375px;
-  position: relative;
-  z-index: 10;
-  bottom: 54px;
-  right: -20px;
-}
-
-@media only screen and (max-width: 680px) {
-  .card {
-    flex-direction: column;
-    height: unset;
-  }
-
-  .card > div:first-of-type {
-    flex: 1;
-    padding: 1em;
-    min-width: unset;
-  }
-
-  .card > div:last-of-type {
-    align-self: end;
-  }
-
-  .card img {
-    position: relative;
-    max-width: 360px;
-    right: 20px;
-    bottom: -3px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .card img {
-    width: 70%;
-  }
+  margin-left: 2em;
+  padding-left: 20px;
 }
