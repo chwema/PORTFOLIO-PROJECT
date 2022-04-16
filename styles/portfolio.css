@@ -176,3 +176,66 @@ nav li {
   margin-left: 2em;
   padding-left: 20px;
 }
+.chi {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  margin-bottom: 3em;
+}
+
+.chi > div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.cv-button {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 1em;
+}
+
+.cv-button > span {
+  display: block;
+  font-family: var(--font-headline-bold);
+  color: var(--white);
+  background-color: var(--light-blue);
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
+}
+.cv-button > span:hover {
+  transition: all 200ms ease-in-out;
+  background-color: var(--pink);
+  color: var(--black);
+}
+
+.chi img {
+  max-width: 200px;
+  width: 50%;
+}
+
+.chi h2 {
+  font-family: var(--font-headline-bold);
+  color: var(--black);
+}
+
+.chi p {
+  font-family: var(--font-headline-light);
+}
+h2 .hello {
+  text-align: left;
+}
+@media only screen and (max-width: 680px) {
+  .chi {
+    flex-direction: column;
+  }
+
+  .chi img {
+    max-width: unset;
+  }
+
+  .chi h2 {
+    text-align: center;
+  }
+}
