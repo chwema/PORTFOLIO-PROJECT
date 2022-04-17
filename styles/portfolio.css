@@ -35,7 +35,6 @@ h3 {
 p {
   font-family: var(--font-headline-light);
   font-weight: 300;
-  text-align: center;
 }
 a {
   color: var(--black);
@@ -46,6 +45,7 @@ a:hover {
   color: var(--light-blue);
   text-decoration: none;
 }
+
 nav a {
   text-decoration: none;
   color: var(--dark-blue);
@@ -167,13 +167,13 @@ nav li {
 .card {
   background-color: var(--white);
   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
+  border-radius: 4px;
   display: flex;
   max-width: 600px;
-  height: 320px;
+  height: 325px;
   margin: 5px 30px;
-  margin-top: 6em;
-  margin-bottom: 3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 2em;
   padding-left: 20px;
 }
