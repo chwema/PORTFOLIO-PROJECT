@@ -279,6 +279,11 @@ nav li {
   .tags {
     justify-content: center;
   }
+  .project-description {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 120px;
+  }
 }
 .projects {
   display: flex;
@@ -361,4 +366,19 @@ footer a:hover > i {
 
 .main .img-fluid {
   border-radius: 10px;
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
 }
