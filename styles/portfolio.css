@@ -250,9 +250,6 @@ nav li {
   .contact {
     font-size: 2px;
   }
-  .projects {
-    font-size: 12px;
-  }
 }
 .tags {
   display: flex;
@@ -352,7 +349,16 @@ footer a:hover > i {
   column-gap: 15px;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-description {
+  padding-top: 80px;
+}
+
+.main .img-fluid {
+  border-radius: 10px;
 }
