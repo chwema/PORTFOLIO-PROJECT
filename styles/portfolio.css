@@ -369,16 +369,16 @@ footer a:hover > i {
 }
 
 .btn-branding-outline {
-  color: var(--secondary-color);
-  font-family: var(--secondary-font);
+  color: var(--black);
+  font-family: var(--font-headline-bold);
   font-size: 18px;
   padding: 15px 30px;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid var(--light-blue);
   border-radius: 4px;
   text-decoration: none;
 }
 .btn-branding-outline:hover {
   color: white;
-  background-color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
+  background-color: var(--light-blue);
+  border: 2px solid var(--pink);
 }
