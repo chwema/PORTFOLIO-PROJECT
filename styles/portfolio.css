@@ -351,3 +351,8 @@ footer a:hover > i {
   display: flex;
   column-gap: 15px;
 }
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
