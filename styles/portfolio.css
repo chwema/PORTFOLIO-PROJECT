@@ -371,14 +371,14 @@ footer a:hover > i {
 .btn-branding-outline {
   color: var(--black);
   font-family: var(--font-headline-bold);
-  font-size: 18px;
-  padding: 15px 30px;
+  font-size: 16px;
+  padding: 10px 20px;
   border: 2px solid var(--light-blue);
   border-radius: 4px;
   text-decoration: none;
 }
 .btn-branding-outline:hover {
   color: white;
-  background-color: var(--light-blue);
+  background-color: var(--dark-blue);
   border: 2px solid var(--pink);
 }
