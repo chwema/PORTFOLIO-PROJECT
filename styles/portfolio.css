@@ -37,7 +37,7 @@ p {
   font-weight: 300;
 }
 a {
-  color: var(--black);
+  color: var(--pink);
   text-decoration: none;
 }
 
@@ -371,15 +371,17 @@ footer a:hover > i {
 .btn-branding-outline {
   text-decoration: none;
   color: var(--dark-blue);
+  font-size: 16px;
   font-family: --font-headline-light;
   border-radius: 50px;
-  border: 1px solid transparent;
+  border: 2px solid var(--pink);
   padding: 5px 10px;
   transition: all 200ms ease-in-out;
 }
 .btn-branding-outline:hover {
   cursor: pointer;
   background-color: var(--pink);
+  border: 2px solid var(--light-blue);
   color: var(--dark-blue);
   padding: 5px 10px;
   border-radius: 50px;
