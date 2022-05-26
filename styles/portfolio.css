@@ -5,7 +5,7 @@
   --light-blue: #89aedd;
   --black: #303030;
   --pink: #ffcad4;
-  --dark-blue: #0c2550;
+  --dark-blue: #374968;
   --white: #ffffff;
 }
 body {
@@ -37,7 +37,7 @@ p {
   font-weight: 300;
 }
 a {
-  color: (--dark-blue);
+  color: var(--dark-blue);
   text-decoration: none;
 }
 
