@@ -37,7 +37,7 @@ p {
   font-weight: 300;
 }
 a {
-  color: darkcyan;
+  color: (--dark-blue-a30);
   text-decoration: none;
 }
 
