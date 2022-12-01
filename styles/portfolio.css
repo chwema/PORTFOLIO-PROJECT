@@ -20,7 +20,7 @@ body {
 }
 h2 {
   font-family: var(--font-headline-bold);
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   color: var(--black);
 }
@@ -28,7 +28,7 @@ h2 {
 h1,
 h3 {
   font-family: var(--font-headline-bold);
-  font-size: 30px;
+  font-size: 20px;
   line-height: 42px;
   margin-top: 0 auto;
 }
@@ -74,7 +74,7 @@ nav a:hover {
 nav {
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
+  max-width: 3000px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -119,7 +119,8 @@ nav li {
 }
 
 .intro {
-  text-align: center;
+  text-align: justify;
+  margin: 100px;
 }
 
 .signature {
@@ -129,7 +130,7 @@ nav li {
 .contact-button {
   margin: 0 auto;
   width: fit-content;
-  margin-top: 1em;
+  margin-top: 50px;
 }
 .contact-button > a {
   font-family: var(--font-headline-bold);
@@ -173,7 +174,7 @@ nav li {
   margin: 0 auto;
   width: fit-content;
   border-left: 1px solid var(--black);
-  height: 50px;
+  height: 200px;
 }
 .card {
   background-color: var(--white);
