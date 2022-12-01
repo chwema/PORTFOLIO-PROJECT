@@ -75,7 +75,7 @@ nav {
   display: flex;
   justify-content: space-between;
   max-width: 3000px;
-  margin: 0 auto;
+  margin: 0 100px;
   padding: 10px;
 }
 
