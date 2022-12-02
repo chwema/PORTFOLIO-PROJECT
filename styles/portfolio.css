@@ -387,10 +387,7 @@ footer a:hover > i {
   border-radius: 50px;
   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
 }
-.background{
- background-color: cornsilk;
- border-radius: 5px;
-}
+
 .latest-work {
   padding: 50px 0;
   text-align: center;
@@ -419,7 +416,7 @@ footer a:hover > i {
   display: flex;
   padding: 20px;
   align-items: center;
-  border-bottom: 2px dotted var(--secondary-color);
+  border-bottom: 2px dotted var(--light-blue);
 }
 
 .content-works:last-child {
@@ -454,6 +451,8 @@ footer a:hover > i {
   width: 50%;
   padding: 20px;
   order: 1;
+  border: 1px solid var(--pink);
+  border-radius: 5px;
 }
 
 .content-works:nth-child(even) .text {
@@ -463,7 +462,12 @@ footer a:hover > i {
 .content-works:nth-child(even) .photo {
   order: 2;
 }
-
+.background{
+  border: 1px solid var(--light-blue);
+  background-color: whitesmoke;
+  border-radius: 5px;
+ }
+ 
 @media (max-width: 768px) {
   .content-works {
     flex-direction: column;
