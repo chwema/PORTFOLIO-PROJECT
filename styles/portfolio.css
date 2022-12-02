@@ -451,7 +451,10 @@ footer a:hover > i {
     padding: 35px 10px;
   }
   .content-works .img{
-    visibility: hidden;
+    display: none;
+  }
+  .heading{
+    display: none;
   }
   .content-works h3 {
     text-align: left;
