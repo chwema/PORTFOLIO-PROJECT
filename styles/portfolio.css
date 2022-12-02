@@ -127,6 +127,10 @@ nav li {
 .signature {
   font-family: var(--font-headline-bold);
 }
+.more {
+  color: var(--white);
+  margin-left: 100px;
+}
 /* CONTACT */
 .contact-button {
   width: fit-content;
