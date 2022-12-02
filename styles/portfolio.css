@@ -367,27 +367,7 @@ footer a:hover > i {
 .main .img-fluid {
   border-radius: 10px;
 }
-/*
-.btn-branding-outline {
-  text-decoration: none;
-  color: var(--dark-blue);
-  font-size: 16px;
-  font-family: --font-headline-light;
-  border-radius: 50px;
-  border: 2px solid var(--pink);
-  padding: 5px 10px;
-  transition: all 200ms ease-in-out;
-}
-.btn-branding-outline:hover {
-  cursor: pointer;
-  background-color: var(--pink);
-  border: 2px solid var(--light-blue);
-  color: var(--dark-blue);
-  padding: 5px 10px;
-  border-radius: 50px;
-  box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
-}
-*/
+
 .latest-work {
   padding: 50px 0;
   text-align: center;
