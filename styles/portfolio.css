@@ -35,7 +35,7 @@ h3 {
 }
 p {
   font-family: var(--font-headline-light);
-  font-weight: 300;
+  font-weight: 200;
 }
 a {
   color: var(--dark-blue);
