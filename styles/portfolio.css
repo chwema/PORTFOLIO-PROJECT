@@ -1,3 +1,4 @@
+/* GENERIC */
 :root {
   --font-headline-bold: "Playfair Display", serif;
   --black: #303030;
@@ -45,7 +46,7 @@ a:hover {
   color: var(--light-blue);
   text-decoration: none;
 }
-
+/* Navigation */
 nav a {
   text-decoration: none;
   color: var(--dark-blue);
@@ -126,7 +127,7 @@ nav li {
 .signature {
   font-family: var(--font-headline-bold);
 }
-
+/* CONTACT */
 .contact-button {
   margin: 0 auto;
   width: fit-content;
@@ -391,15 +392,15 @@ footer a:hover > i {
   border-radius: 50px;
   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
 }
-home .latest-work {
+.container .latest-work {
   padding: 50px 0;
   text-align: center;
 }
-.home .latest-work h2 {
+.container .latest-work h2 {
   font-size: 35px;
 }
 
-.home .latest-work .grid-projects-img {
+.container .latest-work .grid-projects-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
