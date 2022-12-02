@@ -290,17 +290,9 @@ nav li {
     padding-bottom: 120px;
   }
 }
-.projects {
-  display: flex;
-  column-gap: 5px;
-  row-gap: 5px;
-}
 
 .card-text {
-  display: flex;
-  width: 100;
-  margin: 10px;
-  flex-direction: column;
+  width: 100;  
   justify-content: center;
 }
 
