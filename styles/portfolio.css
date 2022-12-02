@@ -127,7 +127,7 @@ nav li {
 .signature {
   font-family: var(--font-headline-bold);
 }
-.more {
+.more > div{
   color: var(--white);
   margin-left: 100px;
 }
@@ -386,6 +386,10 @@ footer a:hover > i {
   padding: 5px 10px;
   border-radius: 50px;
   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
+}
+.background{
+ background-color: cornsilk;
+ border-radius: 5px;
 }
 .latest-work {
   padding: 50px 0;
