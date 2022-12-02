@@ -395,6 +395,10 @@ footer a:hover > i {
 .latest-work {
   padding: 50px 0;
   text-align: center;
+  background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 0 30px;
+
 }
 .latest-work h2 {
   font-size: 35px;
