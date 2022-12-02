@@ -91,6 +91,7 @@ nav li {
   line-height: 42px;
   margin-left: 15px;
 }
+/* INDEX */
 .hero {
   display: flex;
   flex-direction: row;
@@ -126,6 +127,13 @@ nav li {
 
 .signature {
   font-family: var(--font-headline-bold);
+}
+
+.vertical-line {
+  margin: 0 auto;
+  width: fit-content;
+  border-left: 1px solid var(--black);
+  height: 200px;
 }
 
 /* CONTACT */
@@ -170,12 +178,6 @@ nav li {
   h2 {
     font-size: 30px;
   }
-}
-.vertical-line {
-  margin: 0 auto;
-  width: fit-content;
-  border-left: 1px solid var(--black);
-  height: 200px;
 }
 .card {
   background-color: var(--white);
@@ -320,6 +322,7 @@ nav li {
 .card-text p {
   margin-bottom: 10px;
 }
+/*FOOTER */
 footer {
   border-top: 1px solid var(--dark-blue-a30);
   padding: 1em 2em;
@@ -364,7 +367,7 @@ footer a:hover > i {
 .main .img-fluid {
   border-radius: 10px;
 }
-
+/*
 .btn-branding-outline {
   text-decoration: none;
   color: var(--dark-blue);
@@ -384,7 +387,7 @@ footer a:hover > i {
   border-radius: 50px;
   box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .latest-work {
   padding: 50px 0;
   text-align: center;
